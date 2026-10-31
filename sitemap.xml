@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://arojentarinat.vercel.app/</loc>
+    <loc>https://www.arojentarinat.com/</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>https://arojentarinat.vercel.app/assets/shots/01-map-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://arojentarinat.vercel.app/assets/shots/03-battle-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://arojentarinat.vercel.app/assets/shots/06-cards-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://arojentarinat.vercel.app/assets/shots/07-diplomacy-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.arojentarinat.com/assets/shots/01-map-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.arojentarinat.com/assets/shots/03-battle-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.arojentarinat.com/assets/shots/06-cards-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.arojentarinat.com/assets/shots/07-diplomacy-1280.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://arojentarinat.vercel.app/about</loc>
-    <lastmod>2026-10-31</lastmod>
+    <loc>https://www.arojentarinat.com/about</loc>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://arojentarinat.vercel.app/contact</loc>
+    <loc>https://www.arojentarinat.com/contact</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://arojentarinat.vercel.app/privacy</loc>
+    <loc>https://www.arojentarinat.com/privacy</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://arojentarinat.vercel.app/delete-account</loc>
-    <lastmod>2026-10-31</lastmod>
+    <loc>https://www.arojentarinat.com/delete-account</loc>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>

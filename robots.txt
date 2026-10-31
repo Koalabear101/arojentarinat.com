@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://arojentarinat.vercel.app/sitemap.xml
+Sitemap: https://www.arojentarinat.com/sitemap.xml
