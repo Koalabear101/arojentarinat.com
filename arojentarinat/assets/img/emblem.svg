@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72">
+  <circle cx="54" cy="54" r="34" fill="#120f0c" stroke="#e0a944" stroke-width="2"/>
+  <circle cx="54" cy="54" r="23" fill="none" stroke="#a8772a" stroke-width="1"/>
+  <path fill="#c99a45" d="M66.73 41.27 54 50l4 4z"/>
+  <path fill="#8a6122" d="M66.73 66.73 58 54l-4 4z"/>
+  <path fill="#c99a45" d="M41.27 66.73 54 58l-4-4z"/>
+  <path fill="#8a6122" d="M41.27 41.27 50 54l4-4z"/>
+  <path fill="#f2c46b" d="M54 24l-4.24 25.76L54 54z"/>
+  <path fill="#a8772a" d="M54 24l4.24 25.76L54 54z"/>
+  <path fill="#f2c46b" d="M84 54l-25.76-4.24L54 54z"/>
+  <path fill="#a8772a" d="M84 54l-25.76 4.24L54 54z"/>
+  <path fill="#f2c46b" d="M54 84l4.24-25.76L54 54z"/>
+  <path fill="#a8772a" d="M54 84l-4.24-25.76L54 54z"/>
+  <path fill="#f2c46b" d="M24 54l25.76 4.24L54 54z"/>
+  <path fill="#a8772a" d="M24 54l25.76-4.24L54 54z"/>
+  <circle cx="54" cy="54" r="2.5" fill="#120f0c"/>
+</svg>
