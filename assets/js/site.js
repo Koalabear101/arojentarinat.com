@@ -180,8 +180,16 @@
     const match = (navigator.languages || [navigator.language || "en"])
       .map((tag) => tag.toLowerCase().split("-")[0])
       .find((code) => supported.includes(code)) || "en";
-    const doc = location.pathname.startsWith("/security") ? "security" : "privacy";
-    const target = match === "en" ? `/${doc}` : `/${doc}-${match}`;
+    const parts = location.pathname.split("/").filter(Boolean);
+    let target;
+    if (/^(privacy|security)/.test(parts[0] || "")) {
+      const doc = parts[0].startsWith("security") ? "security" : "privacy";
+      target = match === "en" ? `/${doc}` : `/${doc}-${match}`;
+    } else {
+      const page = parts.find((p) => !supported.includes(p) && p !== "404") || "";
+      const base = match === "en" ? "" : `/${match}`;
+      target = `${base}${page ? `/${page}` : ""}` || "/";
+    }
     const auto = langSwitch.querySelector("[data-lang-auto]");
     if (auto) auto.setAttribute("href", target);
   }

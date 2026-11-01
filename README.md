@@ -18,6 +18,8 @@ Live: https://www.arojentarinat.com
 | `/privacy-{zh,hi,es,ar,fr,bn,pt,ru,ur,id,de,ja}` | Privacy policy translations (Chinese, Hindi, Spanish, Arabic, French, Bengali, Portuguese, Russian, Urdu, Indonesian, German, Japanese) |
 | `/security-{zh,hi,es,ar,fr,bn,pt,ru,ur,id,de,ja}` | Security policy translations, same 12 languages |
 | `/delete-account` | How to delete an account and its data (for Google Play's Data safety form) |
+| `/{zh,hi,es,ar,fr,bn,pt,ru,ur,id,de,ja,fi}` | Home page translations, same 13 languages |
+| `/{code}/about`, `/{code}/contact`, `/{code}/delete-account` | Translations of the about, contact and delete-account pages (folders `zh/`, `hi/`, ..., `fi/`) |
 | any other path | Custom 404 page |
 
 ## How it is built
