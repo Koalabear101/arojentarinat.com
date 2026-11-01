@@ -11,7 +11,10 @@ Live: https://www.arojentarinat.com
 | `/` | Home: hero, features, online play, realms, victory paths, screenshots, FAQ |
 | `/about` | Story, facts, timeline, team, principles, the novel, the development journal and the source code |
 | `/contact` | Contact topics and a message form (opens the visitor's email app) |
-| `/privacy` | Privacy policy for the game and the website |
+| `/privacy` | Privacy policy for the game and the website (English) |
+| `/privacy-fi` | Tietosuojakäytäntö, Finnish version of the privacy policy |
+| `/security` | Security policy (English) |
+| `/security-fi` | Tietoturvakäytäntö, Finnish version of the security policy |
 | `/delete-account` | How to delete an account and its data (for Google Play's Data safety form) |
 | any other path | Custom 404 page |
 

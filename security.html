@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Security Policy | Arojen Tarinat</title>
+<meta name="description" content="Arojen Tarinat's main security measures: encryption, access control, AI service safeguards, personal data breach handling and how to report a vulnerability.">
+<link rel="canonical" href="https://www.arojentarinat.com/security">
+<link rel="alternate" hreflang="en" href="https://www.arojentarinat.com/security">
+<link rel="alternate" hreflang="fi" href="https://www.arojentarinat.com/security-fi">
+<link rel="alternate" hreflang="x-default" href="https://www.arojentarinat.com/security">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#120f0c">
+<meta name="author" content="Juuso Honkonen, Vilho Valkeala">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Arojen Tarinat">
+<meta property="og:title" content="Security Policy | Arojen Tarinat">
+<meta property="og:description" content="Arojen Tarinat's main security measures and how to report a vulnerability.">
+<meta property="og:url" content="https://www.arojentarinat.com/security">
+<meta property="og:image" content="https://www.arojentarinat.com/assets/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Arojen Tarinat: Genghis Khan, turn-based strategy, 1206">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Security Policy | Arojen Tarinat">
+<meta name="twitter:description" content="Arojen Tarinat's main security measures and how to report a vulnerability.">
+<meta name="twitter:image" content="https://www.arojentarinat.com/assets/img/og-card.jpg">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/img/emblem.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/assets/fonts/cinzel-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css?v=3">
+<script src="/assets/js/site.js?v=3" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.arojentarinat.com/#studio","name":"Arojen Tarinat","url":"https://www.arojentarinat.com/","logo":"https://www.arojentarinat.com/assets/img/icon-512.png","email":"contact@arojentarinat.com","founder":[{"@type":"Person","name":"Juuso Honkonen"},{"@type":"Person","name":"Vilho Valkeala"}],"address":{"@type":"PostalAddress","addressCountry":"FI"}},{"@type":"WebPage","url":"https://www.arojentarinat.com/security","name":"Security policy","inLanguage":"en","dateModified":"2026-11-01"}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Arojen Tarinat home">
+      <img class="brand-mark" src="/assets/img/emblem.svg" alt="" width="40" height="40">
+      <span class="brand-name">AROJEN TARINAT</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+      <svg class="icon icon-open" aria-hidden="true"><use href="/assets/img/icons.svg#menu"/></svg><svg class="icon icon-close" aria-hidden="true"><use href="/assets/img/icons.svg#close"/></svg>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="/">Home</a><a href="/#features">Features</a><a href="/#screenshots">Screenshots</a><a href="/about">About</a><a href="/contact">Contact</a>
+      <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=fi.bookish.creations.arojen.tarinat" rel="noopener"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#play"/></svg>Get the game</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <ol class="breadcrumb reveal"><li><a href="/">Home</a></li><li aria-current="page">Security policy</li></ol>
+    <h1 class="reveal">Security policy</h1>
+    <p class="reveal" style="--delay:.08s">We collect as little data as possible and protect the data we hold. This policy describes our main safeguards and supplements the <a href="/privacy">Privacy policy</a>.</p>
+    <p class="reveal" style="--delay:.1s"><a href="/security-fi">Suomeksi: Tietoturvakäytäntö</a></p>
+    <p class="updated reveal" style="--delay:.12s"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#clock"/></svg>Last updated 1 November 2026</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:24px">
+  <div class="container doc">
+    <article class="prose">
+      <h2>Encryption in transit</h2>
+      <p>Traffic between the app and Supabase, the AI server function and Google's advertising services uses HTTPS/TLS. The app does not allow unencrypted HTTP traffic.</p>
+
+      <h2>Encryption at rest</h2>
+      <p>Supabase encrypts the database storage. Game saves stay in the app's private storage on your device.</p>
+
+      <h2>Access control</h2>
+      <p>Row Level Security (RLS) is enabled on every Supabase table, so the public key can do only what the rules allow, such as adding analytics events and reading shared content. The service-role key is never shipped in the app.</p>
+
+      <h2>Secrets management</h2>
+      <p>The OpenAI API key is a server-side secret of the Supabase Edge Function and is not embedded in the app.</p>
+
+      <h2>Abuse prevention</h2>
+      <p>The AI function limits the number of requests per client and forwards only the current message and up to six recent messages.</p>
+
+      <h2>Least privilege</h2>
+      <p>Administrator rights are limited to two developers. Supabase, Google Play Console, AdMob and OpenAI use two-step verification.</p>
+
+      <h2>Dependencies and releases</h2>
+      <p>We update SDKs and libraries regularly and review security advisories before each release. The app is signed with Play App Signing.</p>
+
+      <h2>AI assistant safeguards</h2>
+      <ul>
+        <li>Before first use, players are told that their messages are sent to OpenAI and are warned not to share personal information.</li>
+        <li>Players can report offensive or harmful AI replies from the chat screen.</li>
+        <li>Conversations are not stored in our database, our server logs do not store message text, and we do not use conversations to train our own models.</li>
+      </ul>
+
+      <h2>Personal data breaches</h2>
+      <p>If we discover a personal data breach, we contain it, assess the risk and, where required, notify the data protection authority within 72 hours. Where the risk to affected players is high, we inform them without undue delay (GDPR Articles 33–34). We keep an internal record of incidents.</p>
+
+      <h2>Reporting a security issue</h2>
+      <p>If you find a security issue, send the details to <a href="mailto:contact@arojentarinat.com">contact@arojentarinat.com</a>. Please give us a reasonable time to fix the problem before publishing it. We acknowledge reports within 5 working days, and we will not take action against research carried out in good faith.</p>
+
+      <div class="note">
+        <svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#mail"/></svg>
+        <div><p>Security reports: <a href="mailto:contact@arojentarinat.com">contact@arojentarinat.com</a>. Privacy requests: see the <a href="/privacy">Privacy policy</a>.</p></div>
+      </div>
+    </article>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="/" aria-label="Arojen Tarinat home">
+          <img class="brand-mark" src="/assets/img/emblem.svg" alt="" width="40" height="40" loading="lazy">
+          <span class="brand-name">AROJEN TARINAT</span>
+        </a>
+        <p>Tales of the Steppe. A turn-based strategy game about Genghis Khan, the Mongol Empire and its rivals, made in Finland.</p>
+      </div>
+      <div>
+        <h2>The game</h2>
+        <ul>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#online">Play online</a></li>
+          <li><a href="/#realms">The realms</a></li>
+          <li><a href="/#screenshots">Screenshots</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Studio</h2>
+        <ul>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/privacy">Privacy policy</a></li>
+          <li><a href="/security">Security policy</a></li>
+          <li><a href="/delete-account">Delete your account</a></li>
+          <li><a href="https://tales-of-the-steppe-9kta87.webnode.page/" rel="noopener">Development journal</a></li>
+          <li><a href="https://www.suomalainen.com/products/arojen-tarina-fantasia" rel="noopener">The novel</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Play now</h2>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=fi.bookish.creations.arojen.tarinat" rel="noopener"><img src="/assets/img/google-play-badge.png" alt="Get it on Google Play" width="188" height="56" loading="lazy"></a>
+        <ul style="margin-top:16px">
+          <li><a href="https://arojen-tarina.github.io/bookish-creations-hub/" rel="noopener">Play in your browser</a></li>
+          <li><a class="footer-contact" href="https://github.com/arojen-tarina/bookish-creations-hub" rel="noopener"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#github"/></svg>Source on GitHub</a></li>
+          <li><a class="footer-contact" href="mailto:contact@arojentarinat.com"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#mail"/></svg>contact@arojentarinat.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-year>2026</span> Arojen Tarinat. All rights reserved.</p>
+      <p class="made"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#heart"/></svg>Made in Finland by Juuso Honkonen &amp; Vilho Valkeala</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

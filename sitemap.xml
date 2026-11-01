@@ -24,9 +24,27 @@
   </url>
   <url>
     <loc>https://www.arojentarinat.com/privacy</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.arojentarinat.com/privacy-fi</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.arojentarinat.com/security</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.arojentarinat.com/security-fi</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.arojentarinat.com/delete-account</loc>
