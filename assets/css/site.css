@@ -662,6 +662,32 @@ h1, h2, h3, h4 { margin: 0; font-family: var(--font-display); font-weight: 700; 
 .lost p { max-width: 520px; margin: 0 auto 30px; color: var(--text-mid); }
 .lost .actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
 
+/* Document pages with a table of contents (privacy, account deletion) */
+.doc-body { display: grid; gap: 56px; min-width: 0; }
+.doc-title { margin: 0 0 10px; font-size: clamp(24px, 3vw, 30px); color: var(--text-high); }
+.doc-lead { margin: 0 0 22px; color: var(--text-mid); }
+.doc-body .note { margin: 0; }
+.email-card { display: flex; gap: 20px; align-items: flex-start; }
+.email-card p { margin: 0 0 18px; color: var(--text-mid); }
+.card-title { margin: 18px 0 14px; font-size: 21px; color: var(--text-high); }
+.card .ticks { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.card .ticks li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 12px; margin: 0; color: var(--text-mid); font-size: 15.5px; }
+.card .ticks .icon { margin-top: 3px; color: var(--gold); }
+@media (max-width: 560px) { .email-card { flex-direction: column; } }
+
+/* Cards that are links (About: more from the steppe) */
+.link-card { display: flex; flex-direction: column; color: inherit; text-decoration: none; }
+.link-card:hover { color: inherit; }
+.link-card .more { display: inline-flex; align-items: center; gap: 8px; margin-top: auto; padding-top: 20px; color: var(--gold-bright); font-weight: 600; font-size: 15px; }
+.link-card .more .icon { transition: transform 0.25s var(--ease); }
+.link-card:hover .more .icon { transform: translateX(4px); }
+.link-card .meta { margin: 6px 0 0; color: var(--text-low); font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+/* Demo video */
+.video-frame { margin: 0; }
+.video-frame video { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; border-radius: var(--radius-m); background: var(--ink-950); box-shadow: var(--shadow), var(--ring); }
+.video-frame figcaption { margin-top: 12px; color: var(--text-low); font-size: 14px; text-align: center; }
+
 /* ------------------------------------------------------------ reveal on scroll */
 
 .js .reveal { opacity: 0; transform: translateY(26px); transition: opacity 0.9s var(--ease), transform 0.9s var(--ease); transition-delay: var(--delay, 0s); }
