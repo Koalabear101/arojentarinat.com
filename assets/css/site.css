@@ -683,6 +683,11 @@ h1, h2, h3, h4 { margin: 0; font-family: var(--font-display); font-weight: 700; 
 .link-card:hover .more .icon { transform: translateX(4px); }
 .link-card .meta { margin: 6px 0 0; color: var(--text-low); font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
 
+/* Demo video */
+.video-frame { margin: 0; }
+.video-frame video { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; border-radius: var(--radius-m); background: var(--ink-950); box-shadow: var(--shadow), var(--ring); }
+.video-frame figcaption { margin-top: 12px; color: var(--text-low); font-size: 14px; text-align: center; }
+
 /* ------------------------------------------------------------ reveal on scroll */
 
 .js .reveal { opacity: 0; transform: translateY(26px); transition: opacity 0.9s var(--ease), transform 0.9s var(--ease); transition-delay: var(--delay, 0s); }

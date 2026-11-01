@@ -33,4 +33,4 @@ Game invite links and Android App Links use `dl.arojentarinat.com` (a Cloudflare
 ## Updating
 
 - Version or numbers on the home page: `index.html`.
-- Bump `?v=2` on `site.css` and `site.js` in every page after changing them, so browsers fetch the new files.
+- Bump `?v=3` on `site.css` and `site.js` in every page after changing them, so browsers fetch the new files.
