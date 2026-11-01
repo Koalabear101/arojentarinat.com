@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Политика безопасности | Arojen Tarinat</title>
+<meta name="description" content="Основные меры безопасности Arojen Tarinat: шифрование, контроль доступа, защита сервисов ИИ, обработка утечек персональных данных и порядок сообщения об уязвимости.">
+<link rel="canonical" href="https://www.arojentarinat.com/security-ru">
+<link rel="alternate" hreflang="en" href="https://www.arojentarinat.com/security">
+<link rel="alternate" hreflang="fi" href="https://www.arojentarinat.com/security-fi">
+<link rel="alternate" hreflang="zh" href="https://www.arojentarinat.com/security-zh">
+<link rel="alternate" hreflang="hi" href="https://www.arojentarinat.com/security-hi">
+<link rel="alternate" hreflang="es" href="https://www.arojentarinat.com/security-es">
+<link rel="alternate" hreflang="ar" href="https://www.arojentarinat.com/security-ar">
+<link rel="alternate" hreflang="fr" href="https://www.arojentarinat.com/security-fr">
+<link rel="alternate" hreflang="bn" href="https://www.arojentarinat.com/security-bn">
+<link rel="alternate" hreflang="pt" href="https://www.arojentarinat.com/security-pt">
+<link rel="alternate" hreflang="ru" href="https://www.arojentarinat.com/security-ru">
+<link rel="alternate" hreflang="ur" href="https://www.arojentarinat.com/security-ur">
+<link rel="alternate" hreflang="id" href="https://www.arojentarinat.com/security-id">
+<link rel="alternate" hreflang="de" href="https://www.arojentarinat.com/security-de">
+<link rel="alternate" hreflang="ja" href="https://www.arojentarinat.com/security-ja">
+<link rel="alternate" hreflang="x-default" href="https://www.arojentarinat.com/security">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#120f0c">
+<meta name="author" content="Juuso Honkonen, Vilho Valkeala">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Arojen Tarinat">
+<meta property="og:title" content="Политика безопасности | Arojen Tarinat">
+<meta property="og:description" content="Основные меры безопасности Arojen Tarinat и порядок сообщения об уязвимости.">
+<meta property="og:url" content="https://www.arojentarinat.com/security-ru">
+<meta property="og:image" content="https://www.arojentarinat.com/assets/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Arojen Tarinat: Чингисхан, пошаговая стратегия, 1206">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Политика безопасности | Arojen Tarinat">
+<meta name="twitter:description" content="Основные меры безопасности Arojen Tarinat и порядок сообщения об уязвимости.">
+<meta name="twitter:image" content="https://www.arojentarinat.com/assets/img/og-card.jpg">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/img/emblem.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/assets/fonts/cinzel-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css?v=4">
+<script src="/assets/js/site.js?v=4" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.arojentarinat.com/#studio","name":"Arojen Tarinat","url":"https://www.arojentarinat.com/","logo":"https://www.arojentarinat.com/assets/img/icon-512.png","email":"contact@arojentarinat.com","founder":[{"@type":"Person","name":"Juuso Honkonen"},{"@type":"Person","name":"Vilho Valkeala"}],"address":{"@type":"PostalAddress","addressCountry":"FI"}},{"@type":"WebPage","url":"https://www.arojentarinat.com/security-ru","name":"Политика безопасности","inLanguage":"ru","dateModified":"2026-11-01"}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Arojen Tarinat, главная">
+      <img class="brand-mark" src="/assets/img/emblem.svg" alt="" width="40" height="40">
+      <span class="brand-name">AROJEN TARINAT</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Меню">
+      <svg class="icon icon-open" aria-hidden="true"><use href="/assets/img/icons.svg#menu"/></svg><svg class="icon icon-close" aria-hidden="true"><use href="/assets/img/icons.svg#close"/></svg>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Основная">
+      <a href="/">Главная</a><a href="/#features">Возможности</a><a href="/#screenshots">Скриншоты</a><a href="/about">О нас</a><a href="/contact">Контакты</a>
+      <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=fi.bookish.creations.arojen.tarinat" rel="noopener"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#play"/></svg>Скачать игру</a>
+    <details class="lang-switch">
+<summary aria-label="Language"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#globe"/></svg>Language</summary>
+<ul class="lang-list">
+<li><a href="/security" data-lang-auto>Puhelimen oletus</a></li>
+<li><a href="/security" lang="en" hreflang="en">English</a></li>
+<li><a href="/security-fi" lang="fi" hreflang="fi">Suomi</a></li>
+<li><a href="/security-zh" lang="zh" hreflang="zh">中文</a></li>
+<li><a href="/security-hi" lang="hi" hreflang="hi">हिन्दी</a></li>
+<li><a href="/security-es" lang="es" hreflang="es">Español</a></li>
+<li><a href="/security-ar" lang="ar" hreflang="ar" dir="rtl">العربية</a></li>
+<li><a href="/security-fr" lang="fr" hreflang="fr">Français</a></li>
+<li><a href="/security-bn" lang="bn" hreflang="bn">বাংলা</a></li>
+<li><a href="/security-pt" lang="pt" hreflang="pt">Português</a></li>
+<li><a href="/security-ru" lang="ru" hreflang="ru" aria-current="true">Русский</a></li>
+<li><a href="/security-ur" lang="ur" hreflang="ur" dir="rtl">اردو</a></li>
+<li><a href="/security-id" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+<li><a href="/security-de" lang="de" hreflang="de">Deutsch</a></li>
+<li><a href="/security-ja" lang="ja" hreflang="ja">日本語</a></li>
+</ul>
+</details>
+</nav>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <ol class="breadcrumb reveal"><li><a href="/">Главная</a></li><li aria-current="page">Политика безопасности</li></ol>
+    <h1 class="reveal">Политика безопасности</h1>
+    <p class="reveal" style="--delay:.08s">Мы собираем как можно меньше данных и защищаем те данные, которые храним. Эта политика описывает наши основные меры защиты и дополняет <a href="/privacy-ru">Политику конфиденциальности</a>.</p>
+    <p class="reveal" style="--delay:.1s"><a href="/security">На английском: Security policy</a></p>
+    <p class="updated reveal" style="--delay:.12s"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#clock"/></svg>Последнее обновление: 1 ноября 2026 г.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:24px">
+  <div class="container doc">
+    <article class="prose">
+      <h2>Шифрование при передаче</h2>
+      <p>Трафик между приложением и Supabase, серверной функцией ИИ и рекламными сервисами Google использует HTTPS/TLS. Приложение не допускает незашифрованный трафик HTTP.</p>
+
+      <h2>Шифрование при хранении</h2>
+      <p>Supabase шифрует хранилище базы данных. Игровые сохранения остаются в закрытом хранилище приложения на вашем устройстве.</p>
+
+      <h2>Контроль доступа</h2>
+      <p>Row Level Security (RLS) включена для каждой таблицы Supabase, поэтому открытый ключ может делать только то, что разрешают правила, например, добавлять события аналитики и читать общий контент. Ключ service-role никогда не поставляется вместе с приложением.</p>
+
+      <h2>Управление секретами</h2>
+      <p>Ключ API OpenAI является секретом на стороне сервера функции Edge Function Supabase и не встроен в приложение.</p>
+
+      <h2>Защита от злоупотреблений</h2>
+      <p>Функция ИИ ограничивает количество запросов от каждого клиента и передаёт только текущее сообщение и до шести последних сообщений.</p>
+
+      <h2>Минимальные привилегии</h2>
+      <p>Права администратора ограничены двумя разработчиками. Supabase, Google Play Console, AdMob и OpenAI используют двухэтапную проверку.</p>
+
+      <h2>Зависимости и релизы</h2>
+      <p>Мы регулярно обновляем SDK и библиотеки и проверяем бюллетени безопасности перед каждым релизом. Приложение подписано через Play App Signing.</p>
+
+      <h2>Меры защиты ИИ-ассистента</h2>
+      <ul>
+        <li>Перед первым использованием игрокам сообщается, что их сообщения отправляются в OpenAI, и их предупреждают не передавать личные данные.</li>
+        <li>Игроки могут пожаловаться на оскорбительные или вредные ответы ИИ с экрана чата.</li>
+        <li>Разговоры не сохраняются в нашей базе данных, серверные журналы не хранят текст сообщений, и мы не используем разговоры для обучения собственных моделей.</li>
+      </ul>
+
+      <h2>Утечки персональных данных</h2>
+      <p>Если мы обнаружим утечку персональных данных, мы её локализуем, оценим риск и, где это требуется, уведомим орган по защите данных в течение 72 часов. Если риск для затронутых игроков высок, мы сообщаем им без неоправданной задержки (статьи 33–34 GDPR). Мы ведём внутренний журнал инцидентов.</p>
+
+      <h2>Сообщение о проблеме безопасности</h2>
+      <p>Если вы нашли проблему безопасности, отправьте подробности на <a href="mailto:contact@arojentarinat.com">contact@arojentarinat.com</a>. Пожалуйста, дайте нам разумный срок на исправление проблемы до публикации. Мы подтверждаем получение сообщений в течение 5 рабочих дней и не будем предпринимать действий против исследований, проведённых добросовестно.</p>
+
+      <div class="note">
+        <svg class="icon" aria-hidden="true"><use href="/assets/img/icons.svg#mail"/></svg>
+        <div><p>Сообщения о безопасности: <a href="mailto:contact@arojentarinat.com">contact@arojentarinat.com</a>. Запросы о конфиденциальности: см. <a href="/privacy-ru">Политику конфиденциальности</a>.</p></div>
+      </div>
+    </article>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="/" aria-label="Arojen Tarinat, главная">
+          <img class="brand-mark" src="/assets/img/emblem.svg" alt="" width="40" height="40" loading="lazy">
+          <span class="brand-name">AROJEN TARINAT</span>
+        </a>
+        <p>Tales of the Steppe. Пошаговая стратегия о Чингисхане, Монгольской империи и её соперниках, созданная в Финляндии.</p>
+      </div>
+      <div>
+        <h2>Игра</h2>
+        <ul>
+          <li><a href="/#features">Возможности</a></li>
+          <li><a href="/#online">Играть онлайн</a></li>
+          <li><a href="/#realms">Царства</a></li>
+          <li><a href="/#screenshots">Скриншоты</a></li>
+          <li><a href="/#faq">Частые вопросы</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Студия</h2>
+        <ul>
+          <li><a href="/about">О нас</a></li>
+          <li><a href="/contact">Контакты</a></li>
+          <li><a href="/privacy-ru">Политика конфиденциальности</a></li>
+          <li><a href="/security-ru">Политика безопасности</a></li>
+          <li><a href="/delete-account">Удалить аккаунт</a></li>
+          <li><a href="https://tales-of-the-steppe-9kta87.webnode.page/" rel="noopener">Дневник разработки</a></li>
+          <li><a href="https://www.suomalainen.com/products/arojen-tarina-fantasia" rel="noopener">Роман</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Играть сейчас</h2>
+        <a class="play-badge" href="https://play.google.com/store/apps/details?id=fi.bookish.creations.arojen.tarinat" rel="noopener"><img src="/assets/img/google-play-badge.png" alt="Доступно в Google Play" width="188" height="56" loading="lazy"></a>
+        <ul style="margin-top:16px">
+          <li><a href="https://arojen-tarina.github.io/bookish-creations-hub/" rel="noopener">Играть в браузере</a></li>
+          <li><a class="footer-contact" href="https://github.com/arojen-tarina/bookish-creations-hub" rel="noopener"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#github"/></svg>Исходный код на GitHub</a></li>
+          <li><a class="footer-contact" href="mailto:contact@arojentarinat.com"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#mail"/></svg>contact@arojentarinat.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-year>2026</span> Arojen Tarinat. Все права защищены.</p>
+      <p class="made"><svg class="icon icon-sm" aria-hidden="true"><use href="/assets/img/icons.svg#heart"/></svg>Сделано в Финляндии: Juuso Honkonen &amp; Vilho Valkeala</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

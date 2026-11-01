@@ -15,6 +15,8 @@ Live: https://www.arojentarinat.com
 | `/privacy-fi` | Tietosuojakäytäntö, Finnish version of the privacy policy |
 | `/security` | Security policy (English) |
 | `/security-fi` | Tietoturvakäytäntö, Finnish version of the security policy |
+| `/privacy-{zh,hi,es,ar,fr,bn,pt,ru,ur,id,de,ja}` | Privacy policy translations (Chinese, Hindi, Spanish, Arabic, French, Bengali, Portuguese, Russian, Urdu, Indonesian, German, Japanese) |
+| `/security-{zh,hi,es,ar,fr,bn,pt,ru,ur,id,de,ja}` | Security policy translations, same 12 languages |
 | `/delete-account` | How to delete an account and its data (for Google Play's Data safety form) |
 | any other path | Custom 404 page |
 

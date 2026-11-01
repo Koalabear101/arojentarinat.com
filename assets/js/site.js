@@ -173,6 +173,19 @@
     window.location.href = `mailto:${form.dataset.mailForm}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
 
+  // Language switcher: point "device default" at the closest supported language.
+  const langSwitch = document.querySelector(".lang-switch");
+  if (langSwitch) {
+    const supported = ["en", "fi", "zh", "hi", "es", "ar", "fr", "bn", "pt", "ru", "ur", "id", "de", "ja"];
+    const match = (navigator.languages || [navigator.language || "en"])
+      .map((tag) => tag.toLowerCase().split("-")[0])
+      .find((code) => supported.includes(code)) || "en";
+    const doc = location.pathname.startsWith("/security") ? "security" : "privacy";
+    const target = match === "en" ? `/${doc}` : `/${doc}-${match}`;
+    const auto = langSwitch.querySelector("[data-lang-auto]");
+    if (auto) auto.setAttribute("href", target);
+  }
+
   // Footer year.
   document.querySelectorAll("[data-year]").forEach((el) => { el.textContent = String(new Date().getFullYear()); });
 })();
