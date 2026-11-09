@@ -4,6 +4,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/pt/support",
+      "destination": "/pt/contact",
+      "permanent": true
+    },
+    {
+      "source": "/en/security",
+      "destination": "/security",
+      "permanent": true
+    },
+    {
+      "source": "/id/privacy",
+      "destination": "/privacy-id",
+      "permanent": true
+    },
+    {
       "source": "/index",
       "destination": "/",
       "permanent": true

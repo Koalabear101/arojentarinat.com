@@ -20,6 +20,7 @@ Live: https://www.arojentarinat.com
 | `/delete-account` | How to delete an account and its data (for Google Play's Data safety form) |
 | `/{zh,hi,es,ar,fr,bn,pt,ru,ur,id,de,ja,fi}` | Home page translations, same 13 languages |
 | `/{code}/about`, `/{code}/contact`, `/{code}/delete-account` | Translations of the about, contact and delete-account pages (folders `zh/`, `hi/`, ..., `fi/`) |
+| `/pt/support`, `/en/security`, `/id/privacy` | Permanent redirects to `/pt/contact`, `/security` and `/privacy-id` |
 | any other path | Custom 404 page |
 
 ## How it is built
